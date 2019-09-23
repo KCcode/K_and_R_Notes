@@ -1,0 +1,48 @@
+Basic data types
+   char
+   int
+   float
+   double
+
+Compound types
+   arrays
+   structs
+
+Other qualifiers such as:
+   short 
+   long
+
+Constants
+Integer constant: 1234
+Long constant: 123456789L
+Unsigned constants use U or UL(unsigned long)
+
+Floating point constants
+f or F indicate float constant
+l or L indicate long double constant
+
+Enumaration constants
+Offers the same uses as writing #define
+enum boolean {NO, YES} /*Takes default values NO = 0, Yes = 1*/
+enum months {JAN = 1, FEB = 2, ...} /*can assign the values*/
+
+Declarations
+const double e = 2.71828182 /*indicate that this value wont change*/
+
+Implicit type conversion
+converts type to the "bigger" data type to avoid losing data
+
+Explicit type conversion
+stated by user
+
+Bitwise Operators
+& bitwise AND
+| bitwise exclusive OR
+^ bitwise exclusive OR
+<< shift left //fills vacancies with zeroes
+>> shift right // fills vacancy with zero or signed bit depending if it is a signed or unsigned value
+~ one's complement
+
+Example:
+
+x << 2 shifts the value of x 2 bits to the left
